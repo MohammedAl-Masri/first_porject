@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first Porject</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- logo setting -->
+    <div class="setting">
+      <i class="fa-solid fa-gear gear"></i>
+      <h3>Setting your page</h3>
+      <div class="set-contaner">
+        <h4>Color</h4>
+        <ul class="color-list">
+          <li class="active" data-color="#03A9F4"></li>
+          <li data-color="#4caf50"></li>
+          <li data-color="#ff9800"></li>
+          <li data-color="#9c27b0"></li>
+          <li data-color="#e91e63"></li>
+        </ul>
+      </div>
+      <!-- background setting -->
+      <div class="set-contaner-back">
+        <h4>Random Backgrounds</h4>
+        <div class="box-op">
+          <span class="yes active" data-backgrond="yes">Yes</span>
+          <span class="no" data-backgrond="no">No</span>
+        </div>
+      </div>
+      <button class="reset">Reset All</button>
+    </div>
+
+    <!-- home page and header -->
+    <div class="home">
+      <div class="overlay"></div>
+      <div class="container">
+        <header>
+          <div class="logo"><i class="fa-solid fa-mug-saucer"></i></div>
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about-me-page">About me</a></li>
+            <li><a href="#skills-page">Skills</a></li>
+            <li><a href="#contact-me-page">Contact</a></li>
+          </ul>
+          <button class="bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </header>
+      </div>
+      <div class="about-me">
+        <h1>Mohammed Ibrahim <span>AL-Masri</span></h1>
+        <p>
+          “Hello world”, I am Mohammed.<br />My motto is always<br /><span
+            >If you believe, why not?</span
+          >
+        </p>
+      </div>
+    </div>
+    <div class="background-color-aboutme"></div>
+    <div class="container">
+      <div class="aboutme-page" id="about-me-page">
+        <div class="box-me">
+          <h2>So, how am I?</h2>
+          <p>
+            I am Mohammed Ibrahim. I am studying a Bachelor’s degree in Computer
+            Science. I am currently learning front-end development. I love this
+            specialty and I hope to be the best in it. My motto is always<br /><span
+              >If you believe, why not?</span
+            >
+          </p>
+        </div>
+        <div class="box-img">
+          <img src="../img/me.png" alt="ME" />
+        </div>
+      </div>
+    </div>
+    <div class="colorBackContainer">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="skills" id="skills-page">
+          <h1>My Skills</h1>
+          <h2 class="html"></h2>
+          <h2 class="css"></h2>
+          <h2 class="js"></h2>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="backgroundMap">
+      <div class="overfloo"></div>
+      <div class="container">
+      <div class="contact-me" id="contact-me-page">
+        <h2>Contact <span>Me</span></h2>
+        <form action="">
+          <div class="left">
+            <input type="text" name="uasername" placeholder="Enter your name">
+            <input type="number" name="uasernumber" placeholder="Enter your number">
+            <input type="email" name="uaseremail" placeholder="Enter your email">
+            <input type="text" name="uasercity" placeholder="Enter your city">
+          </div>
+          <div class="right">
+            <textarea name="textarea" placeholder="Write your message"></textarea>
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    <script src="../JS/main.js"></script>
+  </body>
+</html>
